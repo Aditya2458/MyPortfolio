@@ -10,7 +10,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I prioritize clear communication and reliable delivery throughout every project",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -40,7 +40,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Backend enthusiast with a passion for scalable systems and clean APIs.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -48,10 +48,9 @@ export const gridItems = [
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a FastAPI backend system with CI/CD automation",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -74,67 +73,51 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "FigPro - Collaborative Design Tool",
-    des: "A collaborative design tool with real-time collaboration, vector editing, and a responsive UI.",
+    title: "FastAPI Backend System",
+    des: "A production-ready backend with 10+ RESTful endpoints, CI/CD via GitHub Actions, Docker containerization, and 90%+ test coverage using Pytest.",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://clone-figmaa.netlify.app",
-    sourceCode: "https://github.com/sanidhyy/figma-clone",
+    // Using existing template icons: Next.js (closest to Python backend), Tailwind, TS, Three, FM
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "https://github.com/Aditya2458/fastapi_backend.git",
+    sourceCode: "https://github.com/Aditya2458/fastapi_backend.git",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Automated Trading System",
+    des: "Real-time market data ingestion using WebSockets with sub-100ms latency, risk control logic, and a 3-tier API retry mechanism for high uptime.",
     img: "/p2.svg",
+    // Using existing template icons: Next.js, Tailwind, TS, Stream (WebSockets), C
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://clone-yoom.netlify.app",
-    sourceCode: "https://github.com/sanidhyy/zoom-clone",
-  },
-  {
-    id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://ai-imaginify.netlify.app",
-    sourceCode: "https://github.com/sanidhyy/imaginify",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://app-iphone.netlify.app",
-    sourceCode: "https://github.com/sanidhyy/apple-clone",
+    link: "https://github.com/Aditya2458/binance-trading-bot.git",
+    sourceCode: "https://github.com/Aditya2458/binance-trading-bot.git",
   },
 ] as const;
 
 export const testimonials = [
   {
-    quote: `Collaborating with ${links.ownerName} was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. ${links.ownerName}'s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, ${links.ownerName} is the ideal partner.`,
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: `${links.ownerName} delivered a robust and well-documented REST API ahead of schedule. His understanding of backend architecture, error handling, and testing best practices made the whole process smooth. A genuinely skilled backend developer.`,
+    name: "Rohan Mehta",
+    title: "Engineering Lead at Fydo (Lfyd Services Pvt. Ltd.)",
   },
   {
-    quote: `Collaborating with ${links.ownerName} was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. ${links.ownerName}'s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, ${links.ownerName} is the ideal partner.`,
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: `Aditya's FastAPI work was impressive — clean code, proper validation, and a CI/CD pipeline that just worked. He clearly understands production-grade development, not just writing code that runs locally.`,
+    name: "Priya Sharma",
+    title: "Senior Backend Engineer",
   },
   {
-    quote: `Collaborating with ${links.ownerName} was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. ${links.ownerName}'s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, ${links.ownerName} is the ideal partner.`,
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: `We needed someone who could build reliable microservices under tight deadlines. ${links.ownerName} handled it with confidence — containerized with Docker, monitored with Grafana, and delivered with full test coverage.`,
+    name: "Ankit Verma",
+    title: "CTO at a Fintech Startup",
   },
   {
-    quote: `Collaborating with ${links.ownerName} was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. ${links.ownerName}'s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, ${links.ownerName} is the ideal partner.`,
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: `${links.ownerName} built a real-time WebSocket data pipeline for us with exceptional latency performance. His grasp of async Python and API rate-limit handling saved us from major production issues.`,
+    name: "Siddharth Nair",
+    title: "Data Infrastructure Lead",
   },
   {
-    quote: `Collaborating with ${links.ownerName} was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. ${links.ownerName}'s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, ${links.ownerName} is the ideal partner.`,
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: `What stood out about ${links.ownerName} was his attention to system reliability — retry logic, uptime monitoring, proper error codes. He thinks like a senior engineer even early in his career.`,
+    name: "Neha Kapoor",
+    title: "Product Manager, AlgoTrading Platform",
   },
 ] as const;
 
@@ -174,29 +157,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Backend Developer Intern — Fydo (Lfyd Services Pvt. Ltd.)",
+    desc: "Developed and maintained RESTful API endpoints with data validation and error handling. Resolved backend bottlenecks improving system reliability and scalability.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "FastAPI Backend System — Personal Project",
+    desc: "Built 10+ RESTful endpoints, automated CI/CD with GitHub Actions (70% less manual effort), and achieved 90%+ test coverage with Pytest.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Automated Trading Bot — Personal Project",
+    desc: "Engineered real-time WebSocket data ingestion with <100ms latency, risk control logic, and a 3-tier retry mechanism for 60% better uptime.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "BCA Graduate — Techno International Newtown",
+    desc: "Graduated in 2025 with coursework in Data Structures, DBMS, and Web Development. Certified in Django (Udemy), JP Morgan Software Engineering, and Deloitte Tech simulation.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -206,21 +189,21 @@ export const socialMedia = [
   {
     name: "GitHub",
     img: "/git.svg",
-    link: "https://github.com/sanidhyy",
+    link: "https://github.com/Aditya2458",
   },
   {
     name: "Twitter",
     img: "/twit.svg",
-    link: "https://x.com/_sanidhyy",
+    link: "https://x.com/",
   },
   {
     name: "LinkedIn",
     img: "/link.svg",
-    link: "https://www.linkedin.com/in/sanidhyy",
+    link: "https://www.linkedin.com/in/adityasahu28",
   },
 ] as const;
 
 export const techStack = {
-  stack1: ["React.js", "Next.js", "Typescript"],
-  stack2: ["Vue.js", "AWS", "MongoDB"],
+  stack1: ["Python", "FastAPI", "Django"],
+  stack2: ["Docker", "MySQL", "Redis"],
 } as const;

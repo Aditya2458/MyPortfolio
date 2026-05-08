@@ -21,17 +21,17 @@ export const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
+          Got a backend problem that needs{" "}
+          <span className="text-purple">solving?</span>
         </h1>
 
         <p className="my-5 text-center text-white-200 md:mt-10">
-          Reach out to me today and let&apos;s discuss how I can help your
-          achieve your goals.
+          Whether it&apos;s a scalable API, a real-time system, or a deployment
+          pipeline — reach out and let&apos;s build something reliable together.
         </p>
 
         <Link
-          href={`mailto:${links.ownerEmail}`}
+          href={`mailto:adityacbsa29@gmail.com`}
           target="_blank"
           rel="noreferrer noopener"
           className="md:mt-10"
@@ -49,15 +49,20 @@ export const Footer = () => {
         <p className="text-sm font-light md:text-base md:font-normal">
           Copyright &copy; {new Date().getFullYear()}{" "}
           <Link
-            href="https://sanidhy.me"
+            href="https://github.com/Aditya2458"
             target="_blank"
             rel="noreferrer noopener"
             className="text-purple"
           >
-            Sanidhya
+            Aditya Sahu
           </Link>{" "}
           |{" "}
-          <Link href={links.sourceCode} className="underline">
+          <Link
+            href="https://github.com/Aditya2458"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="underline"
+          >
             Source Code
           </Link>
         </p>

@@ -14,38 +14,38 @@ export const RecentProjects = () => {
         <span className="text-purple">recent projects</span>
       </h1>
 
-      <div className="mt-10 flex flex-wrap items-center justify-center gap-x-24 gap-y-8 p-4">
+      <div className="mt-10 flex flex-wrap items-center justify-center gap-x-10 gap-y-8 p-4">
         {projects.map(
           ({ id, des, iconLists, img, link, sourceCode, title }) => (
             <div
               key={id}
-              className="flex h-[32rem] w-[90vw] items-center justify-center sm:h-[41rem] sm:w-[570px] lg:min-h-[32.5rem]"
+              className="flex h-[30rem] w-[90vw] items-center justify-center sm:h-[36rem] sm:w-[45vw] sm:max-w-[480px] lg:h-[32rem] lg:min-h-[32rem]"
             >
               <PinContainer title="Visit" href={link}>
-                <div className="relative mb-10 flex h-[30vh] w-[80vw] items-center justify-center overflow-hidden sm:h-[40vh] sm:w-[570px]">
+                <div className="relative mb-10 flex h-[26vh] w-[80vw] items-center justify-center overflow-hidden sm:h-[34vh] sm:w-[42vw] sm:max-w-[460px]">
                   <div className="relative h-full w-full overflow-hidden bg-[#13162d] lg:rounded-3xl">
                     <Image
-                      height={330}
-                      width={552}
+                      height={280}
+                      width={460}
                       src="/bg.png"
                       alt="bg-img"
                     />
                   </div>
 
                   <Image
-                    height={300}
-                    width={464}
+                    height={240}
+                    width={380}
                     src={img}
                     alt={title}
                     className="absolute bottom-0 z-10"
                   />
                 </div>
 
-                <h1 className="line-clamp-1 text-base font-bold md:text-xl lg:text-2xl">
+                <h1 className="line-clamp-1 text-base font-bold md:text-lg lg:text-xl">
                   {title}
                 </h1>
 
-                <p className="line-clamp-2 text-sm font-light lg:text-xl lg:font-normal">
+                <p className="line-clamp-2 text-sm font-light lg:text-base lg:font-normal">
                   {des}
                 </p>
 
@@ -75,7 +75,7 @@ export const RecentProjects = () => {
                       href={sourceCode}
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="flex text-sm text-purple md:text-xs lg:text-xl"
+                      className="flex text-sm text-purple md:text-xs lg:text-base"
                     >
                       Source Code
                     </Link>
